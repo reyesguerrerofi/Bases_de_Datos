@@ -33,6 +33,8 @@ médico que lo atendió y la cita asociada. Cada paciente cuenta con un expedien
 se actualiza en cada consulta. Se requiere que este documento se almacene en la base de datos. Como
 parte de los datos de la consulta, se registra el peso y la presión arterial del paciente.</p>
 
+
+# * Propuesta de entidades
 * Registro de recetas médicas
 
 <p> Cada consulta genera una receta médica. Se requiere llevar un control detallado de los medicamentos que
