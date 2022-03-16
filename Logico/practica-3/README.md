@@ -68,6 +68,9 @@ al paciente y al médico que la autorizó.</p>
 * Paciente ----- Vacuna (M:N)
 * Medico ----- (Vacuna-Paciente) (1:M)
 
-![alt text](practica3-1.png)
 
 # Diseño conceptual CHEN
+
+![alt text](practica3-1.png)
+
+
