@@ -54,4 +54,18 @@ de aplicación y empleo. Al momento de aplicar la vacuna se registra la fecha y 
 al paciente y al médico que la autorizó.</p>
 
 
-# * Propuesta de entidades
+# Propuesta de entidades
+
+Consultorio ----- Especialidad (1:M)
+Especialidad ----- Medico (M:N)
+Medico ----- Supervisor (1:M)
+Cita ----- Paciente (1:M)
+Consultorio ----- Cita (1:M)
+Cita ----- Consulta (1:1)
+Consulta ----- Medico (1:M)
+Receta ----- Consulta (1:1)
+Receta ----- Medicamento (M:N)
+Paciente ----- Vacuna (M:N)
+Medico ----- (Vacuna-Paciente) (1:M)
+
+![alt text](practica3-1.png)
