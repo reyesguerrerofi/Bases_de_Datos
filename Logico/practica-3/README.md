@@ -33,8 +33,6 @@ médico que lo atendió y la cita asociada. Cada paciente cuenta con un expedien
 se actualiza en cada consulta. Se requiere que este documento se almacene en la base de datos. Como
 parte de los datos de la consulta, se registra el peso y la presión arterial del paciente.</p>
 
-
-# * Propuesta de entidades
 * Registro de recetas médicas
 
 <p> Cada consulta genera una receta médica. Se requiere llevar un control detallado de los medicamentos que
@@ -54,3 +52,6 @@ requiere llevar el control de las vacunas que han recibido. Se cuenta con un cat
 en donde se almacena su clave de 3 caracteres, su nombre y un texto con recomendaciones de su forma
 de aplicación y empleo. Al momento de aplicar la vacuna se registra la fecha y hora en la que le fue aplicada
 al paciente y al médico que la autorizó.</p>
+
+
+# * Propuesta de entidades
